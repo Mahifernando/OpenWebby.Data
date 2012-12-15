@@ -91,7 +91,7 @@ namespace OpenWebby.Data.Common
         {
             IDbCommand outCommand = Connection.CreateCommand();
             outCommand.CommandText = commandText;
-            outCommand.CommandType = commandType; // new code set Command Type 
+            outCommand.CommandType = commandType; 
 
             if (null != parameterCollection)
             {
